@@ -23,7 +23,6 @@
 #include "client.h"
 
 #include "platform/threads/mutex.h"
-#include "platform/threads/atomics.h"
 #include "platform/util/timeutils.h"
 #include "platform/sockets/tcp.h"
 

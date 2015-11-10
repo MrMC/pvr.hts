@@ -25,7 +25,6 @@
 #include "Tvheadend.h"
 
 #include "platform/util/util.h"
-#include "platform/threads/atomics.h"
 
 extern "C" {
 #include "libhts/htsmsg_binary.h"

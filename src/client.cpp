@@ -20,10 +20,9 @@
  */
 
 #include "client.h"
-#include "kodi/xbmc_pvr_dll.h"
-#include "kodi/libKODI_guilib.h"
+#include "mrmc/xbmc_pvr_dll.h"
+#include "mrmc/libKODI_guilib.h"
 #include "platform/threads/mutex.h"
-#include "platform/threads/atomics.h"
 #include "platform/util/util.h"
 #include "Settings.h"
 #include "Tvheadend.h"
