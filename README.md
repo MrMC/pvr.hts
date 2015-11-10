@@ -1,16 +1,13 @@
-[![Build Status](https://travis-ci.org/kodi-pvr/pvr.hts.svg?branch=Jarvis)](https://travis-ci.org/kodi-pvr/pvr.hts)
-[![Coverity Scan Build Status](https://scan.coverity.com/projects/5120/badge.svg)](https://scan.coverity.com/projects/5120)
+# Tvheadend PVR addon for MrMC
 
-# Tvheadend PVR addon for Kodi
-
-This is a [Kodi] (http://kodi.tv) PVR addon for connecting to a [tvheadend](https://tvheadend.org) backend.
+This is a [MrMC] (http://mrmc.tv) PVR addon for connecting to a [tvheadend](https://tvheadend.org) backend.
 
 ## Build instructions
 
 ### Linux
 
-1. `git clone https://github.com/xbmc/xbmc.git`
-2. `git clone https://github.com/kodi-pvr/pvr.hts.git`
+1. `git clone https://github.com/mrmc/mrmc.git`
+2. `git clone https://github.com/mrmc/pvr.hts.git`
 3. `cd pvr.hts && mkdir build && cd build`
 4. `cmake -DADDONS_TO_BUILD=pvr.hts -DADDON_SRC_PREFIX=../.. -DCMAKE_BUILD_TYPE=Debug -DCMAKE_INSTALL_PREFIX=../../xbmc/addons -DPACKAGE_ZIP=1 ../../xbmc/project/cmake/addons`
 5. `make`
@@ -20,5 +17,5 @@ the addon will be available as a system addon.
 
 ##### Useful links
 
-* [Kodi's PVR user support] (http://forum.kodi.tv/forumdisplay.php?fid=167)
-* [Kodi's PVR development support] (http://forum.kodi.tv/forumdisplay.php?fid=136)
+* [MrMC's PVR user support] (http://forum.mrmc.tv)
+* [MrMC's PVR development support] (http://forum.mrmc.tv)
